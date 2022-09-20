@@ -1,0 +1,113 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+    padding-top: 80px;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Outfit';
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+h1:hover, span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.cover {
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 520px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 20px 30px 100px black;
+}
+
+.card {
+    border-radius: 10px;
+    background-color: black;
+    width: 270px;
+    height: 250px;
+    margin-bottom: 240px;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    border-radius: 7px;
+    width: 270px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.equilibrium:hover {
+    opacity: 0.4;
+}
+
+.equilibrium::after {
+}
+
+.container img {
+    height: 80%;
+    width: 15%;
+    display: inline;
+}
+
+
+
+img.eth {
+    height: 80%;
+    width: 10%;
+}
+
+.eth-text {
+    color: hsl(178, 100%, 50%);
+}
+
+.eth-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eth-info.eth {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+hr {
+    background-color: hsl(215, 51%, 70%);
+    border: none;
+    height: 1px;
+}
+
+.bottom-container img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+}
+
+span {
+    color: #fff;
+}
+
